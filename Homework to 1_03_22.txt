@@ -1,0 +1,102 @@
+//поры года
+public class Program
+{
+    public static void main(String[] args) {
+   
+   int timeYear = 11;
+   if (timeYear == 1 || timeYear == 2 || timeYear == 12){
+       System.out.println ("winter");}
+       else if (timeYear == 3 || timeYear == 4 || timeYear == 5){
+       System.out.println ("spring");}
+       else if (timeYear == 6 || timeYear ==7 || timeYear == 8){
+       System.out.println ("SUMMER");}
+       else if (timeYear == 9 || timeYear ==10 || timeYear == 11){
+       System.out.println ("autumn");}
+   
+   
+        
+    }
+}
+
+// поры года (2)
+
+public class Program
+{
+    public static void main(String[] args) {
+   
+   int timeYear = 11;
+   if (timeYear == 1 || timeYear == 2 || timeYear == 12){
+       System.out.println ("winter");}
+       else if (timeYear == 3 || timeYear == 4 || timeYear == 5){
+       System.out.println ("spring");}
+       else if (timeYear == 6 || timeYear ==7 || timeYear == 8){
+       System.out.println ("SUMMER");}
+       else if (timeYear == 9 || timeYear ==10 || timeYear == 11){
+       System.out.println ("autumn");}
+   
+   
+        
+    }
+}
+
+//четное нечетное
+
+import java.util.Scanner;
+
+public class Program
+{
+    public static void main(String[] args) {
+    
+    Scanner sc = new Scanner(System.in);
+    int numb = sc.nextInt ();
+    if (numb % 2 == 0){
+        System.out.println(numb +" Это Четное число.");
+    } else {
+        System.out.println (numb + " Это неЧетное число.");
+    }
+        
+    }
+}
+
+// цвета радуги
+
+import java.util.Scanner;
+
+public class Program
+{
+    public static void main(String[] args) {
+   Scanner sc = new Scanner (System.in);
+   int color = sc.nextInt();
+   String rainbow = switch(color){
+      case 1->"red";
+       case 2->"orange";
+      case 3->"yelow";
+       case 4->"green";
+      case 5->"blue";
+       case 6->"d.blue";
+       case 7->"fiolet";
+       default -> "not a color";
+   };
+   
+    }
+}
+
+// температура
+
+import java.util.Scanner;
+
+public class Program
+{
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        int t = sc.nextInt ();
+        if (t>-5){
+            System.out.println ("Тепло.");
+        } else if (t >= -5 && t> -20) {
+            System.out.println ( " Нормально.");
+        } else if (-20 >= t) {
+            System.out.println ("Холодно");
+        }
+    }
+}
