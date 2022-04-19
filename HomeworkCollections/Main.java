@@ -13,7 +13,6 @@ public class Main {
         String report = "E:\\JavaProj\\Lesson14-collections\\src\\com\\company\\HomeworkCollections\\report.txt";
 
         FileInputStream fl = null;
-//        FileReader fr = new FileReader(String.valueOf(fl));
         List<String> fileNames = new ArrayList<>();
         HashSet<String> docNums = new HashSet<>();
         HashMap<String, String> map = new HashMap<>();
@@ -104,18 +103,3 @@ public class Main {
     }
 
 
-//        BufferedReader bF = new BufferedReader(new InputStreamReader(System.in));
-//        String str = null;
-//        System.out.println("Введите имя документа");
-//        System.out.println("Введите 'стоп' для завершения");
-//
-//        do{
-//            try {
-//                str = bF.readLine();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//
-//
-//        }while(!str.equals("стоп"));
-//        System.out.println(str);
