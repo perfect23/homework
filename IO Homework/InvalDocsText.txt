@@ -1,0 +1,4 @@
+[doc231235667890, contr23234567, contrac08234567, docnu1233456789]
+!Wrong start!
+[contr23234567]
+!Wrong size!
