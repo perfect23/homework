@@ -6,8 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 import java.util.Date;
-import java.util.Set;
-import java.util.TreeSet;
+
 
 public class Task1 {
     public static void main(String[] args) {
